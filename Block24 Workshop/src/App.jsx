@@ -7,7 +7,7 @@ function App() {
   
   const [featPupId, setFeatPupId] = useState(null);
 
-  const featuredPup = puppies.find(pup => pup.id === featPupId);
+  const featuredPup = puppies.find((pup) => pup.id === featPupId);
   return (
     <div className="App">
       <h1>Puppy Pals</h1>
